@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(206, 247, 238);
+    font-size: 15px;
+}
+
+.card {
+    width: 30%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#highlight {
+    font-weight: 700;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
