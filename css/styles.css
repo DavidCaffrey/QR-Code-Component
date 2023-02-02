@@ -1,0 +1,38 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+.card {
+    width: 11rem;
+    margin: 3rem auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: .5rem;
+    text-align: center;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+}
+
+#highlight {
+    font-weight: bold;
+    color: black;
+}
+
+img {
+    width: 100%;
+    /* height: 200px; */
+    border-radius: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
