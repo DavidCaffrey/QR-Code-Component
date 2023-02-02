@@ -1,10 +1,11 @@
 body {
     background-color: hsl(212, 45%, 89%);
-    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    /* font-size: 15px; */
 }
 
 .card {
-    width: 11rem;
+    width: 12rem;
     margin: 3rem auto;
     background-color: white;
     border-radius: 10px;
@@ -15,11 +16,17 @@ body {
 
 p {
     color: hsl(220, 15%, 55%);
+    /* padding: 0 1rem; */
+    font-weight: 400;
+    font-size: .75rem;
 }
 
 #highlight {
     font-weight: bold;
+    font-size: 1.25rem;
     color: black;
+    padding: 0 .5rem;
+    text-align: center;
 }
 
 img {
