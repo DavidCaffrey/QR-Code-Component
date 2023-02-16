@@ -43,3 +43,15 @@ img {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (max-width:400px){
+    .card{
+        width: 80%;
+        margin: 3rem auto;
+        padding: 1rem;
+    }
+
+    img{
+        width: 95%;
+    }
+}
