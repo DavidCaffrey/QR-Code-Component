@@ -5,7 +5,7 @@ body {
 }
 
 .card {
-    width: 12rem;
+    width: 15rem;
     margin: 3rem auto;
     background-color: white;
     border-radius: 10px;
@@ -16,7 +16,7 @@ body {
 
 p {
     color: hsl(220, 15%, 55%);
-    /* padding: 0 1rem; */
+    padding: 0 1rem;
     font-weight: 400;
     font-size: .75rem;
 }
@@ -26,7 +26,8 @@ p {
     font-size: 1.25rem;
     color: black;
     padding: 0 .5rem;
-    text-align: center;
+    text-align: justify;
+    word-spacing: -1px;
 }
 
 img {
@@ -48,10 +49,19 @@ img {
     .card{
         width: 80%;
         margin: 3rem auto;
-        padding: 1rem;
+        padding:  1rem 0.5rem;
     }
 
     img{
         width: 95%;
+    }
+
+    #highlight{
+        padding: 0 1.5rem;
+    }
+
+    p{
+        padding: 0 2rem;
+        font-size: .9rem;
     }
 }
